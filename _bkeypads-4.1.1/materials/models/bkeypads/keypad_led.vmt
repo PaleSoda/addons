@@ -1,0 +1,16 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/bkeypads/keypad_led"
+
+	"$blendtintbybasealpha" "1"
+ 	"$blendtintcoloroverbase" "0"
+	
+	Proxies
+	{
+		LEDColor
+		{
+			resultVar	$color2
+			default		0 0 0
+		}
+	}
+}

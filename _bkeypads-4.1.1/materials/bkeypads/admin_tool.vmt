@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "bkeypads/admin_tool"
+	"$translucent" 1
+	"$ignorez" 1
+}

@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/bkeypads/keypad"
+	"$bumpmap" "models/bkeypads/keypad_norm"
+
+	"$phong" "1"
+	"$phongboost" ".5"
+	"$phongexponent" "1.5"	
+	"$phongfresnelranges" "[0.5 0.5 0.5]"
+}

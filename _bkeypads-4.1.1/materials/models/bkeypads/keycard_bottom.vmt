@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/bkeypads/keycard_identification"
+	"$surfaceprop" "Plastic"
+
+	"$blendtintbybasealpha" "1"
+ 	"$blendtintcoloroverbase" "0"
+
+	Proxies
+	{
+		KeycardColor
+		{
+			resultVar	$color2
+			default		0 0 0
+		}
+	}
+
+}

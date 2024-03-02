@@ -1,0 +1,8 @@
+"Spritecard"
+{
+	$basetexture "bkeypads/particle_cash"
+	$translucent 1
+	$overbrightfactor 1.1
+	$depthblend 0
+}
+

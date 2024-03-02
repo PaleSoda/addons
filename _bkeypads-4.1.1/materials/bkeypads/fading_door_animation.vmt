@@ -1,0 +1,13 @@
+"UnlitGeneric"
+{
+	"$basetexture" "bkeypads/fading_door_animation"
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "2"
+		}
+	}
+}

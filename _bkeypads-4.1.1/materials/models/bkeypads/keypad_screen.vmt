@@ -1,0 +1,17 @@
+UnlitGeneric
+{
+	$surfaceprop "glass"
+	$color "[1 1 1]"
+	$color2 "[0 0 0]"
+	
+	$blendtintbybasealpha 1
+ 	$blendtintcoloroverbase 1
+	
+	Proxies
+	{
+		ScreenColor
+		{
+			resultVar	$color2
+		}
+	}
+}
