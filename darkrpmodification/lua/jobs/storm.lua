@@ -1,0 +1,163 @@
+AddCSLuaFile()
+
+DarkRP.createCategory{
+    name = "Stormtrooper Corp",
+    categorises = "jobs",
+    startExpanded = true,
+    color = Color(255, 255, 255),
+    canSee = function(ply) return true end,
+    sortOrder = 1,
+}
+
+TEAM_Storm = DarkRP.createJob("Stormtrooper", {
+    color = Color(255, 255, 255),
+    model = {"models/player/ven/tk_basic_01/tk_basic.mdl", "models/player/ven/tk_basic_02/tk_basic.mdl"},
+    description = [[The Imperial Stormtrooper Corp was the backbone of the Imperial Army.]],
+    weapons = {"masita_e11_animated", "masita_rk3"},
+    command = "storm",
+    max = 0,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    canDemote = true,
+    category = "Stormtrooper Corp",
+    PlayerSpawn = EYNJobStats( 200, 100 ),
+    sortOrder = 0,
+})
+
+TEAM_Stormhvy = DarkRP.createJob("Stormtrooper Heavy", {
+    color = Color(255, 255, 255),
+    model = {"models/player/ven/tk_jumptrooper_01/tk_jumptrooper.mdl", "models/player/ven/tk_jumptrooper_02/tk_jumptrooper.mdl"},
+    description = [[The Imperial Stormtrooper Corp was the backbone of the Imperial Army.]],
+    weapons = {"masita_z6i", "masita_rk3"},
+    command = "stormhvy",
+    max = 0,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    canDemote = true,
+    category = "Stormtrooper Corp",
+    PlayerSpawn = EYNJobStats( 300, 150 ),
+    sortOrder = 1,
+})
+
+TEAM_Stormjt = DarkRP.createJob("Jump Trooper", {
+    color = Color(255, 255, 255),
+    model = {"models/player/ven/tk_skytrooper_01/tk_skytrooper.mdl", "models/player/ven/tk_skytrooper_02/tk_skytrooper.mdl"},
+    description = [[The Imperial Stormtrooper Corp was the backbone of the Imperial Army.]],
+    weapons = {"masita_e11t", "masita_rk3", "jet_mk5"},
+    command = "stormjt",
+    max = 0,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    canDemote = true,
+    category = "Stormtrooper Corp",
+    PlayerSpawn = EYNJobStats( 250, 100 ),
+    sortOrder = 2,
+})
+
+TEAM_StormFT = DarkRP.createJob("Flame Trooper", {
+    color = Color(255, 255, 255),
+    model = {"models/nada/FlameTrooper.mdl"},
+    description = [[The Imperial Stormtrooper Corp was the backbone of the Imperial Army.]],
+    weapons = {"masita_e11_animated", "weapon_imperial_flamethrower"},
+    command = "stormft",
+    max = 0,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    canDemote = true,
+    category = "Stormtrooper Corp",
+    PlayerSpawn = EYNJobStats( 250, 100 ),
+    sortOrder = 3,
+})
+
+TEAM_Stormce = DarkRP.createJob("Combat Engineer", {
+    color = Color(255, 255, 255),
+    model = {"models/player/ven/tk_basic_01/tk_basic.mdl", "models/player/ven/tk_basic_02/tk_basic.mdl"},
+    description = [[The Imperial Stormtrooper Corp was the backbone of the Imperial Army.]],
+    weapons = {"masita_e11_animated", "arccw_sw_rocket_smartlauncher", "weapon_lvsrepair"},
+    command = "stormce",
+    max = 0,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    canDemote = true,
+    category = "Stormtrooper Corp",
+    PlayerSpawn = EYNJobStats( 250, 100 ),
+    sortOrder = 4,
+})
+
+TEAM_Stormst = DarkRP.createJob("Scout Trooper", {
+    color = Color(255, 255, 255),
+    model = {"models/nada/scouttrooper.mdl"},
+    description = [[The Imperial Stormtrooper Corp was the backbone of the Imperial Army.]],
+    weapons = {"masita_e11s", "masita_ec17"},
+    command = "stormst",
+    max = 0,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    canDemote = true,
+    category = "Stormtrooper Corp",
+    PlayerSpawn = EYNJobStats( 200, 100 ),
+    sortOrder = 5,
+})
+
+TEAM_Stormsc = DarkRP.createJob("Storm Commando", {
+    color = Color(255, 255, 255),
+    model = {"models/nada/stormcommando.mdl", "models/nada/generalweir.mdl"},
+    description = [[The Imperial Stormtrooper Corp was the backbone of the Imperial Army.]],
+    weapons = {"masita_e11sx", "masita_e11_animated"},
+    command = "stormsc",
+    max = 0,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    canDemote = true,
+    category = "Stormtrooper Corp",
+    PlayerSpawn = EYNJobStats( 250, 100 ),
+    sortOrder = 6,
+})
+
+TEAM_Stormshw = DarkRP.createJob("Shadow Trooper", {
+    color = Color(255, 255, 255),
+    model = {"models/player/ven/tk_shadowtrooper_01/tk_shadowtrooper.mdl", "models/player/ven/tk_shadowtrooper_02/tk_shadowtrooper.mdl"},
+    description = [[The Imperial Stormtrooper Corp was the backbone of the Imperial Army.]],
+    weapons = {"masita_dlt19", "masita_blurrgextended", "cloaking-infinite"},
+    command = "stormshw",
+    max = 0,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    canDemote = true,
+    category = "Stormtrooper Corp",
+    PlayerSpawn = EYNJobStats( 250, 150 ),
+    sortOrder = 7,
+})
+
+TEAM_Stormcomm = DarkRP.createJob("Stormtrooper Command Staff", {
+    color = Color(255, 255, 255),
+    model = {"models/player/ven/tk_basic_01/tk_basic.mdl", "models/player/ven/tk_basic_02/tk_basic.mdl"},
+    description = [[The Imperial Stormtrooper Corp was the backbone of the Imperial Army.]],
+    weapons = {"masita_e11t", "masita_blurrgextended"},
+    command = "stormcomm",
+    max = 2,
+    salary = 100,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    canDemote = true,
+    category = "Stormtrooper Corp",
+    PlayerSpawn = EYNJobStats( 400, 100 ),
+    sortOrder = 8,
+})
